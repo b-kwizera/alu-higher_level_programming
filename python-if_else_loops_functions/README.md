@@ -8,3 +8,4 @@ Python script 6-print_comb3.py prints all distinct two-digit combinations with n
 Python function islower(c) returns True if c is lowercase ASCII letter.
 Python function uppercase(str) prints the string in uppercase without using str.upper().
 Python function print_last_digit(number) prints and returns last digit of number.
+Python function add(a, b) returns the sum of two integers.
