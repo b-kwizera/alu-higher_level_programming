@@ -5,3 +5,4 @@ Python script 3-print_number.py prints the number and Battery street using f-str
 Python script 4-print_float.py prints a float number rounded to 2 decimal places using f-string.
 Python script 5-print_string.py prints a string 3 times and its first 9 characters.
 Python script 6-concat.py concatenates two strings to print a welcome message.
+Python script 7-edges.py slices strings to print first 3, last 2, and middle part.
