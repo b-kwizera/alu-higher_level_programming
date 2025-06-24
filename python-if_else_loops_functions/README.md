@@ -3,3 +3,4 @@ Python script 1-last_digit.py prints last digit of a random number with conditio
 Python script 2-print_alphabet.py prints lowercase ASCII alphabet without newline.
 Python script 3-print_alphabt.py prints lowercase ASCII alphabet without q and e.
 Python script 4-print_hexa.py prints decimal and hexadecimal numbers from 0 to 98.
+Python script 5-print_comb2.py prints numbers 00 to 99 separated by comma and space.
