@@ -7,3 +7,4 @@ Python script 5-print_comb2.py prints numbers 00 to 99 separated by comma and sp
 Python script 6-print_comb3.py prints all distinct two-digit combinations with no duplicates.
 Python function islower(c) returns True if c is lowercase ASCII letter.
 Python function uppercase(str) prints the string in uppercase without using str.upper().
+Python function print_last_digit(number) prints and returns last digit of number.
