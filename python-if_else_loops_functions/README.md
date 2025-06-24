@@ -10,3 +10,4 @@ Python function uppercase(str) prints the string in uppercase without using str.
 Python function print_last_digit(number) prints and returns last digit of number.
 Python function add(a, b) returns the sum of two integers.
 Python function pow(a, b) returns a raised to the power of b.
+Python function fizzbuzz() prints numbers 1-100 with Fizz, Buzz, or FizzBuzz as required.
