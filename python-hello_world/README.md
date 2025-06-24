@@ -7,3 +7,4 @@ Python script 5-print_string.py prints a string 3 times and its first 9 characte
 Python script 6-concat.py concatenates two strings to print a welcome message.
 Python script 7-edges.py slices strings to print first 3, last 2, and middle part.
 Python script 8-concat_edges.py concatenates predefined variables to print a sentence without string literals.
+Python script 9-easter_egg.py prints The Zen of Python using import this.
