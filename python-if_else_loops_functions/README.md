@@ -5,3 +5,4 @@ Python script 3-print_alphabt.py prints lowercase ASCII alphabet without q and e
 Python script 4-print_hexa.py prints decimal and hexadecimal numbers from 0 to 98.
 Python script 5-print_comb2.py prints numbers 00 to 99 separated by comma and space.
 Python script 6-print_comb3.py prints all distinct two-digit combinations with no duplicates.
+Python function islower(c) returns True if c is lowercase ASCII letter.
