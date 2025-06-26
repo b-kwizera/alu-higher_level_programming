@@ -10,3 +10,4 @@ Python function 8-multiple_returns.py returns length and first character of stri
 Python function 9-max_integer.py finds max integer in list
 Python function 10-divisible_by_2.py returns list indicating multiples of 2
 Python function 11-delete_at.py deletes item at a given index of list
+Python script 12-switch.py swaps values of a and b in 5 lines
