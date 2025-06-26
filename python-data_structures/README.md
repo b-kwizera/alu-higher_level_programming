@@ -5,3 +5,4 @@ Python function 3-print_reversed_list_integer.py prints list integers in reverse
 Python function 4-new_in_list.py returns a new list with replacement at index.
 Python function 5-no_c.py removes all c and C characters from a string.
 Python function 6-print_matrix_integer.py prints matrix of integers with str.format
+Python function 7-add_tuple.py adds two tuples element-wise with defaults for missing elements
