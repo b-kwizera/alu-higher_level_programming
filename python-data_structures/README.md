@@ -9,3 +9,4 @@ Python function 7-add_tuple.py adds two tuples element-wise with defaults for mi
 Python function 8-multiple_returns.py returns length and first character of string
 Python function 9-max_integer.py finds max integer in list
 Python function 10-divisible_by_2.py returns list indicating multiples of 2
+Python function 11-delete_at.py deletes item at a given index of list
