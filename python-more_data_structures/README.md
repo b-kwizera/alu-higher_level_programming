@@ -9,3 +9,4 @@ Python function 6-print_sorted_dictionary.py prints dictionary by ordered keys
 8-simple_delete.py: function to delete a key from a dictionary
 9-multiply_by_2.py: function to multiply all dictionary values by 2
 10-best_score.py: function to get key with highest integer value in dict
+11-multiply_list_map.py: multiply list elements by number using map
