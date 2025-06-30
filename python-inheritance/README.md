@@ -7,3 +7,4 @@
 6-base_geometry.py: BaseGeometry class with area() raising Exception
 7-base_geometry.py: Added integer_validator method to BaseGeometry class
 8-rectangle.py: Rectangle class inheriting from BaseGeometry with validated width and height
+9-rectangle.py: Rectangle class with area method and string representation
