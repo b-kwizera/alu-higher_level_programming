@@ -8,3 +8,4 @@
 7-base_geometry.py: Added integer_validator method to BaseGeometry class
 8-rectangle.py: Rectangle class inheriting from BaseGeometry with validated width and height
 9-rectangle.py: Rectangle class with area method and string representation
+10-square.py: Square class inheriting from Rectangle with size validation
