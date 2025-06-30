@@ -1,0 +1,5 @@
+my_list = MyList([3, 1, 2])
+my_list.print_sorted()  # Expected output: 1 2 3 (each number printed on the same line separated by spaces)
+
+# The original list should remain unchanged:
+print(my_list)
