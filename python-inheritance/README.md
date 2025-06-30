@@ -9,3 +9,4 @@
 8-rectangle.py: Rectangle class inheriting from BaseGeometry with validated width and height
 9-rectangle.py: Rectangle class with area method and string representation
 10-square.py: Square class inheriting from Rectangle with size validation
+11-square.py: Square class with custom __str__ output format
