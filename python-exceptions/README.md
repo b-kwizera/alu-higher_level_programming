@@ -4,3 +4,4 @@
 3-safe_print_division.py: divides two integers with try/except/finally and prints result
 4-list_division.py: divides elements of two lists with error handling and returns result list
 5-raise_exception.py: function that raises a TypeError exception
+6-raise_exception_msg.py: function that raises a NameError with a message
