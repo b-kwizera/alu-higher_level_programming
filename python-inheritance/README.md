@@ -5,3 +5,4 @@
 4-inherits_from.py: Function to check subclass inheritance for an object's class
 5-base_geometry.py: Empty BaseGeometry class
 6-base_geometry.py: BaseGeometry class with area() raising Exception
+7-base_geometry.py: Added integer_validator method to BaseGeometry class
