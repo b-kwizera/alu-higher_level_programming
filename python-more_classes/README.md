@@ -5,3 +5,4 @@
 4-rectangle.py: Add __repr__ method for eval recreatable Rectangle
 5-rectangle.py: Add __del__ method with goodbye message
 6-rectangle.py: Add class attribute number_of_instances to track active instances
+7-rectangle.py: Add print_symbol class attribute for customizable string representation
