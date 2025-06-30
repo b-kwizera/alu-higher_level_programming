@@ -8,3 +8,4 @@
 6-square.py: Adds position attribute and printing logic with position offset using spaces.
 0-square.py: Defines an empty class Square
 1-square.py: Square class with private size attribute and no validation
+2-square.py: Square class with size validation (must be int >= 0)
