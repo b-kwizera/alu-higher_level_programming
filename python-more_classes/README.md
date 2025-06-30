@@ -6,3 +6,4 @@
 5-rectangle.py: Add __del__ method with goodbye message
 6-rectangle.py: Add class attribute number_of_instances to track active instances
 7-rectangle.py: Add print_symbol class attribute for customizable string representation
+8-rectangle.py: Add static method bigger_or_equal to compare rectangle areas
