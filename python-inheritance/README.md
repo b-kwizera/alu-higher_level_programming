@@ -4,3 +4,4 @@
 3-is_kind_of_class.py: Function to check instance or subclass of a class
 4-inherits_from.py: Function to check subclass inheritance for an object's class
 5-base_geometry.py: Empty BaseGeometry class
+6-base_geometry.py: BaseGeometry class with area() raising Exception
