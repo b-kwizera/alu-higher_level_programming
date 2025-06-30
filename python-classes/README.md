@@ -5,3 +5,4 @@
 3-square.py: Defines a Square class with area calculation and input validation.
 4-square.py: Adds getter and setter for size with validation; includes area method.
 5-square.py: Adds my_print method to display the square using '#' characters.
+6-square.py: Adds position attribute and printing logic with position offset using spaces.
