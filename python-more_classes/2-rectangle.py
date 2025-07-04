@@ -1,22 +1,27 @@
 #!/usr/bin/python3
-"""Defines a Rectangle class with width, height, area and perimeter."""
+"""This module defines a Rectangle class."""
+
 
 class Rectangle:
-    """Represents a rectangle with width and height."""
+    """A class that defines a rectangle."""
 
     def __init__(self, width=0, height=0):
-        """Initialize a new Rectangle instance.
+        """Initialize a rectangle with optional width and height.
 
         Args:
-            width (int): The width of the rectangle (default 0).
-            height (int): The height of the rectangle (default 0).
+            width (int): The width of the rectangle. Defaults to 0.
+            height (int): The height of the rectangle. Defaults to 0.
         """
         self.width = width
         self.height = height
 
     @property
     def width(self):
-        """Retrieve the width of the rectangle."""
+        """Get the width of the rectangle.
+
+        Returns:
+            int: The width of the rectangle.
+        """
         return self.__width
 
     @width.setter
@@ -38,7 +43,11 @@ class Rectangle:
 
     @property
     def height(self):
-        """Retrieve the height of the rectangle."""
+        """Get the height of the rectangle.
+
+        Returns:
+            int: The height of the rectangle.
+        """
         return self.__height
 
     @height.setter
@@ -59,13 +68,19 @@ class Rectangle:
         self.__height = value
 
     def area(self):
-        """Return the area of the rectangle."""
+        """Calculate and return the area of the rectangle.
+
+        Returns:
+            int: The area of the rectangle (width * height).
+        """
         return self.__width * self.__height
 
     def perimeter(self):
-        """Return the perimeter of the rectangle.
+        """Calculate and return the perimeter of the rectangle.
 
-        If width or height is 0, perimeter is 0.
+        Returns:
+            int: The perimeter of the rectangle. If width or height is 0,
+                 returns 0.
         """
         if self.__width == 0 or self.__height == 0:
             return 0
