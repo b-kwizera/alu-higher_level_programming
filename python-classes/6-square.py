@@ -4,7 +4,7 @@
 
 class Square:
     """A class that defines a square by its size and position.
-    
+
     Attributes:
         size (int): The size of the square (private).
         position (tuple): The position of the square (private).
@@ -12,10 +12,10 @@ class Square:
 
     def __init__(self, size=0, position=(0, 0)):
         """Initialize a new Square.
-        
+
         Args:
             size (int): The size of the new square. Defaults to 0.
-            position (tuple): The position of the new square. Defaults to (0, 0).
+            position (tuple): .
         """
         self.size = size
         self.position = position
@@ -23,7 +23,7 @@ class Square:
     @property
     def size(self):
         """Get the size of the square.
-        
+
         Returns:
             int: The size of the square.
         """
@@ -32,10 +32,10 @@ class Square:
     @size.setter
     def size(self, value):
         """Set the size of the square.
-        
+
         Args:
             value (int): The size to set.
-            
+
         Raises:
             TypeError: If size is not an integer.
             ValueError: If size is less than 0.
@@ -49,7 +49,7 @@ class Square:
     @property
     def position(self):
         """Get the position of the square.
-        
+
         Returns:
             tuple: The position of the square.
         """
@@ -58,10 +58,10 @@ class Square:
     @position.setter
     def position(self, value):
         """Set the position of the square.
-        
+
         Args:
             value (tuple): The position to set.
-            
+
         Raises:
             TypeError: If position is not a tuple of 2 positive integers.
         """
@@ -74,7 +74,7 @@ class Square:
 
     def area(self):
         """Calculate the area of the square.
-        
+
         Returns:
             int: The area of the square.
         """
@@ -82,7 +82,7 @@ class Square:
 
     def my_print(self):
         """Print the square with the character '#'.
-        
+
         Uses the position attribute to determine spacing.
         If size is 0, prints an empty line.
         """
