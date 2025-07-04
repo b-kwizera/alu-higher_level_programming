@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-"""This module defines a Square class with size validation, area calculation, and custom printing."""
+"""This module defines a Square class with size validation."""
 
 
 class Square:
@@ -7,7 +7,7 @@ class Square:
 
     def __init__(self, size=0):
         """Initialize the square with an optional size.
-        
+
         Args:
             size (int): Size of the square's sides (default is 0).
         """
@@ -21,10 +21,10 @@ class Square:
     @size.setter
     def size(self, value):
         """Setter for the size of the square with validation.
-        
+
         Args:
             value (int): New size to assign.
-        
+
         Raises:
             TypeError: If value is not an integer.
             ValueError: If value is negative.
@@ -37,14 +37,14 @@ class Square:
 
     def area(self):
         """Calculate and return the area of the square.
-        
+
         Returns:
             int: Area of the square.
         """
         return self.__size * self.__size
 
     def my_print(self):
-        """Print the square using '#' characters. If size is 0, print an empty line."""
+        """Print the square using '#' characters."""
         if self.__size == 0:
             print()
         else:
