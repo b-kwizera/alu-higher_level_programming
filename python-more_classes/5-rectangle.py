@@ -1,5 +1,6 @@
 #!/usr/bin/python3
-"""Defines a Rectangle class with width, height, and prints a message upon deletion."""
+"""Defines a Rectangle class with width, height"""
+
 
 class Rectangle:
     """Represent a rectangle with width and height."""
