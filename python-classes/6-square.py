@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-"""This module defines a Square class with size and position attributes, and printing behavior."""
+"""This module defines a Square class with size and position attributes."""
 
 
 class Square:
@@ -7,10 +7,10 @@ class Square:
 
     def __init__(self, size=0, position=(0, 0)):
         """Initialize the square with size and position.
-        
+
         Args:
             size (int): Size of the square sides (default is 0).
-            position (tuple): Tuple of 2 positive integers for printing position (default is (0, 0)).
+            position (tuple): Tuple of 2 positive integers.
         """
         self.size = size
         self.position = position
@@ -37,9 +37,7 @@ class Square:
     @position.setter
     def position(self, value):
         """Setter for position with validation."""
-        if (not isinstance(value, tuple) or len(value) != 2 or
-            not all(isinstance(num, int) for num in value) or
-            not all(num >= 0 for num in value)):
+        if (not isinstance(value, tuple) or len(value) != 2 or not all(isinstance(num, int) for num in value) or not all(num >= 0 for num in value)):
             raise TypeError("position must be a tuple of 2 positive integers")
         self.__position = value
 
@@ -48,7 +46,7 @@ class Square:
         return self.__size ** 2
 
     def my_print(self):
-        """Print the square with the character '#' and respect position offset."""
+        """Print the square with the character '#'."""
         if self.__size == 0:
             print()
         else:
