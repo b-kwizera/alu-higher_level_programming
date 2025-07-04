@@ -2,6 +2,7 @@
 """Defines a Rectangle class with instance tracking, customizable print symbol,
 and a static method to compare rectangles by area."""
 
+
 class Rectangle:
     """Represent a rectangle."""
 
@@ -93,7 +94,7 @@ class Rectangle:
         return f"Rectangle({self.__width}, {self.__height})"
 
     def __del__(self):
-        """Print a message when an instance is deleted and decrement instance counter."""
+        """Print a message when an instance is deleted."""
         print("Bye rectangle...")
         Rectangle.number_of_instances -= 1
 
