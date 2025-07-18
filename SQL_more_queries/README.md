@@ -12,3 +12,4 @@
 12-no_genre.sql: lists tv shows without any genre linked, sorted by title
 13-count_shows_by_genre.sql: lists genres and number of linked shows, sorted descending
 14-my_genres.sql: lists all genres of the show 'Dexter' sorted alphabetically
+15-comedy_only.sql: lists all shows with the genre Comedy sorted by title
