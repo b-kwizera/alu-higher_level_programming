@@ -2,3 +2,4 @@
 1-create_user.sql: creates user_0d_1 with full privileges if not already present.
 3-force_name.sql: creates table force_name with NOT NULL name column, if it doesn't already exist.
 4-never_empty.sql: creates id_not_null table with default value 1 for id.
+5-unique_id.sql: creates unique_id table with id as unique and default value of 1.
