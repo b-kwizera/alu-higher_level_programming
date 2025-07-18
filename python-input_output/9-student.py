@@ -4,6 +4,7 @@ Defines a Student class with first_name, last_name, age and
 a method to return JSON serializable dictionary representation.
 """
 
+
 class Student:
     """
     Student class with public attributes: first_name, last_name, age
