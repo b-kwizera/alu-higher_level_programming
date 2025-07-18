@@ -4,6 +4,7 @@ Function to return the dictionary description with simple data structure
 for JSON serialization of an object.
 """
 
+
 def class_to_json(obj):
     """
     Returns the dictionary description with simple data structure
@@ -14,6 +15,6 @@ def class_to_json(obj):
         obj (object): An instance of a class
 
     Returns:
-        dict: Dictionary of the object's attributes suitable for JSON serialization
+        dict: Dictionary of the object's attributes suitable
     """
     return obj.__dict__.copy()
