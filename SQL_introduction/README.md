@@ -14,3 +14,4 @@
 13-change_class.sql: removes all records with score less than or equal to 5 in second_table.
 14-average.sql: computes the average score of all records in second_table.
 15-groups.sql: lists count of records grouped by score in second_table sorted by number descending.
+16-no_link.sql: lists records in second_table with non-null/non-empty name ordered by descending score.
