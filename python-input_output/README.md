@@ -3,3 +3,4 @@
 2-append_write.py: function that appends text to a file and returns number of characters added
 3-to_json_string.py: function that converts a Python object to a JSON string
 4-from_json_string.py: function that parses JSON string to Python object
+5-save_to_json_file.py: function that saves Python object to file as JSON
