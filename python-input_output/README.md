@@ -5,3 +5,4 @@
 4-from_json_string.py: function that parses JSON string to Python object
 5-save_to_json_file.py: function that saves Python object to file as JSON
 6-load_from_json_file.py: function that loads Python object from a JSON file
+7-add_item.py: adds arguments to list and saves to add_item.json using JSON functions
