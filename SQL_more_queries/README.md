@@ -5,3 +5,4 @@
 5-unique_id.sql: creates unique_id table with id as unique and default value of 1.
 6-states.sql: creates database hbtn_0d_usa and states table with auto-increment id and NOT NULL name
 7-cities.sql: creates cities table in hbtn_0d_usa with foreign key to states.id
+8-cities_of_california_subquery.sql: lists cities of California using a subquery (no JOIN)
