@@ -14,3 +14,4 @@
 14-my_genres.sql: lists all genres of the show 'Dexter' sorted alphabetically
 15-comedy_only.sql: lists all shows with the genre Comedy sorted by title
 16-shows_by_genre.sql: lists all shows with their genres, including NULL genres, sorted by title and genre
+2-create_read_user.sql: creates database hbtn_0d_2 and user_0d_2 with SELECT privilege only
