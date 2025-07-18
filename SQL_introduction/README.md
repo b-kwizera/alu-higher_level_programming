@@ -3,3 +3,4 @@
 2-remove_database.sql: Deletes the database hbtn_0c_0 if it exists.
 3-list_tables.sql: Lists all tables of the specified database.
 4-first_table.sql: Creates first_table with columns id (INT) and name (VARCHAR(256)) if not exists.
+5-full_table.sql: Prints full CREATE TABLE statement of first_table using SHOW CREATE TABLE.
