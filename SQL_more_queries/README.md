@@ -8,3 +8,4 @@
 8-cities_of_california_subquery.sql: lists cities of California using a subquery (no JOIN)
 9-cities_by_state_join.sql: lists all cities and their state names using JOIN, sorted by city id
 10-genre_id_by_show.sql: lists tv shows with at least one genre linked, sorted by title and genre_id
+11-genre_id_all_shows.sql: lists all tv shows with genre IDs, including NULL for shows without genres
