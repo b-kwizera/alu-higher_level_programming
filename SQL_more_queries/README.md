@@ -6,3 +6,4 @@
 6-states.sql: creates database hbtn_0d_usa and states table with auto-increment id and NOT NULL name
 7-cities.sql: creates cities table in hbtn_0d_usa with foreign key to states.id
 8-cities_of_california_subquery.sql: lists cities of California using a subquery (no JOIN)
+9-cities_by_state_join.sql: lists all cities and their state names using JOIN, sorted by city id
