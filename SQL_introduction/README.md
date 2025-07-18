@@ -10,3 +10,4 @@
 9-full_creation.sql: creates second_table and inserts multiple rows.
 10-top_score.sql: lists all records of second_table ordered by score descending showing score and name.
 11-best_score.sql: lists all records of second_table with score >= 10 ordered by score descending showing score and name.
+12-no_cheating.sql: updates the score of Bob to 10 in second_table using only the name field.
