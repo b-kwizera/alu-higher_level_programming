@@ -6,3 +6,4 @@
 5-save_to_json_file.py: function that saves Python object to file as JSON
 6-load_from_json_file.py: function that loads Python object from a JSON file
 7-add_item.py: adds arguments to list and saves to add_item.json using JSON functions
+10-student.py: defines Student class with to_json method supporting attribute filtering
