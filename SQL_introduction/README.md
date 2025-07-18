@@ -12,3 +12,4 @@
 11-best_score.sql: lists all records of second_table with score >= 10 ordered by score descending showing score and name.
 12-no_cheating.sql: updates the score of Bob to 10 in second_table using only the name field.
 13-change_class.sql: removes all records with score less than or equal to 5 in second_table.
+14-average.sql: computes the average score of all records in second_table.
