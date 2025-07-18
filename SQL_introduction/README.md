@@ -8,3 +8,4 @@
 7-insert_value.sql: Inserts a new row with id=89 and name='Best School' into first_table.
 8-count_89.sql: Counts records with id=89 in first_table.
 9-full_creation.sql: creates second_table and inserts multiple rows.
+10-top_score.sql: lists all records of second_table ordered by score descending showing score and name.
