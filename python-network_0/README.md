@@ -3,3 +3,4 @@
 Task 2: Bash script that sends a DELETE request using curl and displays the response body
 Task 3: Bash script to display allowed HTTP methods for a given URL using curl
 Task 4: Bash script to send GET request with header X-HolbertonSchool-User-Id using curl
+Task 5: Bash script to send POST request with email and subject parameters using curl
