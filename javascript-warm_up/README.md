@@ -7,3 +7,4 @@
 9-add.js: prints the addition of two integers passed as arguments
 10-factorial.js: computes and prints the factorial of the integer passed as argument (recursive implementation)
 11-second_biggest.js: prints the second biggest integer from the list of arguments passed; prints 0 if none or only one argument
+12-object.js: replaces the value property of an object from 12 to 89
