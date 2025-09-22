@@ -6,3 +6,4 @@
 8-square.js: prints a square of size n using 'X', where n is the first argument passed, or prints 'Missing size' if the argument is missing or not a number
 9-add.js: prints the addition of two integers passed as arguments
 10-factorial.js: computes and prints the factorial of the integer passed as argument (recursive implementation)
+11-second_biggest.js: prints the second biggest integer from the list of arguments passed; prints 0 if none or only one argument
