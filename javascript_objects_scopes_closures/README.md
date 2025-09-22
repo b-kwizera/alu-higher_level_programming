@@ -4,3 +4,4 @@
 3-rectangle.js: defines a Rectangle class that only initializes width and height if both are positive integers, and has a print() method to display the rectangle using X
 4-rectangle.js: defines a Rectangle class that can print, rotate (swap width and height), and double (multiply width and height by 2)
 5-square.js: defines a Square class that inherits from Rectangle and uses the size argument for both width and height
+6-square.js: defines a Square class inheriting from 5-square.js with a charPrint(c) method to print the square using the given character or X by default
